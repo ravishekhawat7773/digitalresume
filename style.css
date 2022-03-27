@@ -1,0 +1,105 @@
+body{
+  background-color: #EEEEEE;
+}
+.top{
+  height: 10px;
+}
+.navbar{
+
+  padding-left: 20px;
+  margin-bottom: 150px;
+}
+.profilepic{
+  margin-top: 10px;
+}
+.ic{
+  color: blue;
+}
+.propic{
+  border-radius: 5%;
+
+  border-radius: 100%;
+}
+.greeting{
+  margin-top: 25px;
+    font-size: 90px;
+}
+.bitabout{
+  font-size: 30px;
+}
+.bio{
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+.btn{
+  color: black;
+  height: 140px;
+  width: 140px;
+  font-size: 25px;
+  border-radius: 100%;
+  position: relative;
+  right: 30px;
+}
+.btn2{
+  position: relative;
+  left: 0px;
+}
+.btn3{
+  position: relative;
+  left: 27px;
+}
+hr{
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.si{
+  margin: 10px;
+}
+.sicon{
+margin-left:10px;
+color: grey;
+font-size: 35px;
+
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: white;
+  }
+  .greating{
+    margin-top: 0px;
+  }
+  .bio{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .btn{
+  height: 120px;
+  width:120px;
+  font-size:20px;
+  border-radius: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar{
+    margin-bottom: 10px;
+  }
+  .greeting{
+    margin-top: 0px;
+      font-size: 60px;}
+
+  .btn{
+    padding-left: 10px;
+    padding-right: 10px;
+  height: 90px;
+  width:90px;
+  font-size:15px;
+}
+  .bio{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
